@@ -1,0 +1,116 @@
+body{
+    background-image: url(../images/photo-1617634667039-8e4cb277ab46.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;  
+    transition: all 1s;
+    font-family: fantasy;
+}
+.contenu{
+    position: fixed;
+    height: 86%;
+    width: 50%;
+    padding: 3%;
+    color: white;
+    
+
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(0, 0, 0, 0.33);
+}
+.contenu h1{
+    text-align: center;
+    font-size: 250%;
+    margin:0% 0% 3% 0% ;
+    animation: rainbow 3s infinite;
+}
+@keyframes rainbow {
+    from{
+        color: cyan;
+        transform: scale(100%) rotate(0deg);
+    }
+    10%{
+        color: blue;
+    }
+    20%{
+        color:  purple;
+        transform: scale(120%) rotate(5deg)
+    }
+    30%{
+        color:  red;
+    }
+    40%{
+        color:  orange;
+        transform: scale(100%) rotate(0deg)
+    }
+    50%{
+        color:  yellow;
+    }
+    60%{
+        color:  yellowgreen;
+    }
+    70%{
+        color:  green;
+        transform: scale(120%) rotate(-5deg)
+    }
+    80%{
+        color:  blue;
+    }
+    90%{
+        color:  cyan;
+        transform: scale(100%) rotate(0deg)
+    }
+    to{
+        color:  white;
+    }
+}
+fieldset{
+    margin-bottom: 2%;
+    background: rgba(0, 0, 0, 0.30);
+}
+legend{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+fieldset input{
+    margin: 0.6%;
+
+    color: black;
+    border: 0;
+    background-color: #f19640;
+    box-shadow: 0px 0px 5px #f19640,
+    0px 0px 10px #f19640,
+    0px 0px 30px #f19640;
+}
+fieldset input:hover{
+    transition-duration: .7s;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #ffffff,
+    0px 0px 10px #ffffff,
+    0px 0px 30px #ffffff;
+}
+textarea{
+    margin: 0.6%;
+
+    color: black;
+    border: 0;
+    background-color: #f19640;
+    box-shadow: 0px 0px 5px #f19640,
+    0px 0px 10px #f19640,
+    0px 0px 30px #f19640;
+}
+textarea:hover{
+    transition-duration: .7s;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #ffffff,
+    0px 0px 10px #ffffff,
+    0px 0px 30px #ffffff;
+}
+#envoi{
+    width: 10%;
+}
