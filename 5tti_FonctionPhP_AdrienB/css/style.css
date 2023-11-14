@@ -1,0 +1,31 @@
+:root{
+    --cursor: pointer;
+    --background: #f0d486 ;
+    --backgroundinv: #615021 ;
+    --texte: #6f026d ;
+    --texte2: #000000 ;
+    --inv: inside;
+}
+body{
+    cursor: var(--cursor);
+    margin :0;
+    background-color: var(--background);
+}
+header{
+    background-color: var(--backgroundinv);
+    padding : 1%;
+}
+h1{
+    color: var(--texte);
+    font-size: 300%;
+}
+main{
+    margin-left: 3%;
+}
+.color{
+    color: var(--texte2);
+}
+
+li{
+    list-style: var(--inv);
+}
