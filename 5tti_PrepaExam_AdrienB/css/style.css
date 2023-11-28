@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    background-color: rgb(129, 129, 129);
+    color: white;
+    font-weight: bold;
+}
+header{
+    margin: 1%;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main div{
+    background-color: black;
+    padding: 1%;
+    border: 1px white solid;
+    text-align: center;
+}
+main div h2{
+    margin: 0;
+}
+main div form{
+    margin-top: 10%;
+    background-color: aqua;
+}
+main div form input{
+    margin: 5%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    border-top: 2px black solid;
+    width: 100%;
+}
+footer p{
+    margin: 1%;
+    color: black;
+}
+.rep{
+    border-top: 5px red solid;
+    background-color: yellow;
+    border-bottom: 5px green solid;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    font-size: 500%;
+}
