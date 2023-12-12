@@ -1,0 +1,145 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(211, 222, 218);
+    margin: 0;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(24, 61, 61);
+    text-align: center;
+}
+header a{
+    width: 100%;
+    margin: 1%;
+}
+header button{
+    background-color: #899CAB;
+    color: whitesmoke;
+    width: 15%;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.7s;
+}
+header button:hover{
+    background-color: #324D61;
+    cursor: grab;
+}
+.interHead{
+    width: 30%;
+}
+h1{
+    color: white;
+    width: 100%;
+    background-color: #324D61;
+    margin: 0;
+    text-align: center;
+    padding: 1%;
+}
+footer{
+    background-color: rgb(24, 61, 61);
+    display: flex;
+    padding: 1%;
+}
+footer p{
+    background-color: #899CAB;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.7s;
+    padding: 2%;
+    margin: 0%;
+    width: 30%;
+}
+footer p:hover{
+    background-color: #324D61;
+    cursor: grab;
+}
+.footL{
+    width: 50%;
+}
+.footR{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.footR p{
+    width: 5%;
+}
+.mainLR{
+    width: 120px;
+    margin: 1% 3% 1% 3%;
+}
+img{
+    width: 50px;
+    margin: 1%;
+}
+.mainC{
+    flex-grow: 5;
+    text-align: center;
+}
+fieldset{
+    width: 40%;
+    margin: 1%;
+    text-align: left;
+}
+legend{
+    padding: 5px;
+    font-size: 2em;
+    background-color: #324D61;
+    color: white;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.lbIn p{
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin: 20px 0 20px 0;
+}
+input{
+    border: rgb(118, 118, 118) solid 2px;
+    border-bottom: rgb(56, 55, 55) solid 2px;
+    border-right: rgb(56, 55, 55) solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.formss{
+    justify-content: center;
+    height: 90%;
+}
+#envoyer{
+    transition: all 0.7s;
+    border: none;
+    background-color: #324D61;
+    color: white;
+    margin: 1%;
+}
+#envoyer:hover{
+    background-color: #49545C;
+    cursor: grab;
+}
+.flex{
+    display: flex;
+}
+.lrep{
+    width: 50%;
+}
+.lrep fieldset{
+    width: 100%;
+}
+.rep{
+    width: 50%;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    margin: 1%;
+}
+.rep p{
+    color: white;
+    background-color: #324D61;
+    padding: 3%;
+}
